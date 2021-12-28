@@ -30,4 +30,4 @@ const climbStairs = function(n) {
     return countSteps([1,2], n)
 }
 
-console.log(climbStairs(44))
+console.log(climbStairs(10))
