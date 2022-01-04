@@ -25,7 +25,7 @@ const longestCommonSubsequence = function(text1, text2, result=0) {
 
     else {
         result = 0
-        console.log('hi', originalText1)
+        console.log('hi', text1)
         return longestCommonSubsequence(text1, restChar, result)
     }
 }
