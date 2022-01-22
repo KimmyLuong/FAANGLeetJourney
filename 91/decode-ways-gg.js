@@ -16,7 +16,7 @@
         if(s.charAt(index) !== 0) {
             tabulationTable[index] = tabulationTable[index-1]
         }
-        console.log(s.charAt(index-1))
+
         if((s.charAt(index-1) === 1 || s.charAt(index-1) === 2)) {
             tabulationTable[index] += tabulationTable[index-2]
         }
@@ -24,7 +24,7 @@
     }
 
 }
-
+//Doesn't work requires revisit maybe later
 // console.log(numDecodings('226'))
 // console.log(numDecodings('2101'))
 console.log(numDecodings('10011'))

@@ -29,6 +29,8 @@ const recursion = (nums, memo={}) => {
     return result
 }
 
+//Solution works but the memo thing is broken... idk why
+
 console.log(canJump([2,3,1,1,4]))
 
 // console.log(canJump([3,2,1,0,4]))
