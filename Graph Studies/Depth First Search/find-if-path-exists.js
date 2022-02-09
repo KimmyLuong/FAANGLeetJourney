@@ -24,7 +24,7 @@ const validPath = function(n, edges, source, destination) {
             adjacencyList[edge[1]] = [...adjacencyList[edge[1]], edge[0]]
         }
     }
-
+    
     stack.push(source)
 
     while(stack.length !== 0) {
